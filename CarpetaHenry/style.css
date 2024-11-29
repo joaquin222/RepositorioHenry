@@ -1,0 +1,67 @@
+.Fondo {
+    background-color: rgba(189, 189, 229, 0.874);
+}
+
+.Titulos {
+    font-weight: 700;
+    color: rgb(82, 77, 77);
+
+}
+
+.Precio{
+    font-size: 19px;
+}
+
+ .Texto{
+    color: rgb(82, 77, 77);
+    font-weight: 300;
+}
+.Titulo {
+    font-size: 26px;
+    color: rgb(82, 77, 77);
+}
+
+img{
+    width: 300px;
+   margin-top: 0px;
+   transition: 0.5s;
+
+
+}
+
+ img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contenedor-img{
+    width: fit-content;
+    padding: 0px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#principal{
+    font-size: 42px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+}
+#cabeza{
+    width: 50%;
+    border: 2px solid rgb(134, 134, 206);
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
